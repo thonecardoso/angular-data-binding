@@ -14,6 +14,7 @@ export class DataBindingComponent implements OnInit {
   isMouseOver = false;
 
 
+
   constructor() {
   }
 
