@@ -12,7 +12,7 @@ export class DataBindingComponent implements OnInit {
   valorAtual = '';
   valorSalvo = '';
   isMouseOver = false;
-
+nomeDoCurso = 'Angular';
 
 
   constructor() {
