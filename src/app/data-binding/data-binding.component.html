@@ -104,6 +104,10 @@
     <h2>Input/Output Properties</h2>
 
     <app-curso [nome]="nomeDoCurso"></app-curso>
+
+    <contador [valor]="valorInicial"
+              (mudouValor)="onMudouValor($event.novoValor)"
+    ></contador>
   </article>
 
 </section>
